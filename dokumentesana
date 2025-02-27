@@ -1,0 +1,39 @@
+Uzstādīšana un palaišana
+	1.	Python instalēšana:
+	•	Ja Python vēl nav instalēts, dodieties uz oficiālo Python lejupielādes lapu.
+	•	Lejupielādējiet un instalējiet Python 3.x versiju.
+	•	Pārliecinieties, ka instalēšanas laikā izvēlaties opciju “Add Python to PATH”, lai Python būtu pieejams komandrindā.
+	2.	Tkinter instalēšana:
+	•	Tkinter ir iekļauts Python standarta bibliotēkā, tāpēc, ja esat instalējis Python, Tkinter tiks instalēts automātiski.
+	•	Lai pārbaudītu, vai Tkinter ir instalēts, atveriet komandrindu (cmd) un ievadiet:python -m tkinter
+Ja tiek atvērts neliels logs, tas nozīmē, ka Tkinter ir pareizi instalēts.
+
+	3.	Lejupielādējiet spēles failus:
+	•	Lejupielādējiet matematiska_spele.py Python failu no projekta resursiem.
+	•	Ja fails ir pieejams GitHub repozitorijā, varat to lejupielādēt šādi:
+	•	Dodieties uz GitHub repozitoriju, kur ir atrodams spēles fails.
+	•	Noklikšķiniet uz “Code” un izvēlieties Download ZIP.
+	•	Atveriet ZIP failu un izvelciet tā saturu uz jūsu izvēlētu mapi.
+	4.	Spēles palaišana:
+	•	Atveriet komandrindu (CMD) vai terminali.
+	•	Pārejiet uz mapi, kurā atrodas lejupielādētais matematiska_spele.py fails.
+	•	Lai palaistu spēli, ievadiet:python matematiska_spele.py
+
+Spēles gaita
+	1.	Matemātikas uzdevuma attēlošana:
+	•	Spēles laikā ekrānā tiek parādīts nejauši izvēlēts matemātikas uzdevums, piemēram, “8 + 2 = ?”.
+	•	Lietotājam ir jāievada atbilde, balstoties uz šo uzdevumu.
+	2.	Atbildes ievadīšana:
+	•	Lietotājs ievada savu atbildi (piemēram, “10”) un nospiež “Iesniegt” pogu.
+	•	Spēle pārbauda atbildi un sniedz atgriezenisko saiti par to, vai atbilde bija pareiza vai nepareiza.
+	3.	Pareiza atbilde:
+	•	Ja lietotājs sniedz pareizu atbildi (piemēram, “10” uz uzdevumu “8 + 2 = ?”), viņš iegūst +1 punktu.
+	•	Punkti tiek uzkrāti, bet tie netiek parādīti spēles laikā.
+	4.	Nepareiza atbilde:
+	•	Ja atbilde ir nepareiza (piemēram, “12” uz uzdevumu “8 + 2 = ?”), spēlētājs zaudē 5 sekundes no atlikušā laika.
+	•	Laika skaitītājs tiek samazināts, un tiek parādīts nākamais uzdevums.
+	5.	Spēles beigas:
+	•	Spēle beidzas pēc 60 sekunžu laika ierobežojuma.
+	•	Pēc tam tiek parādīts iegūtais punktu skaits.
+Papildus iespējas
+	•	Restartēšana: Pēc spēles beigām lietotājs var izvēlēties pogu “Sākt no jauna”, lai spēli atsāktu un mēģinātu iegūt augstāku rezultātu.
