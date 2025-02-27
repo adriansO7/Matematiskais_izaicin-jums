@@ -1,0 +1,31 @@
+PROGRAMMATŪRAS PROJEKTĒJUMS
+
+MATEMĀTIKAS IZAICINĀJUMS
+
+1. Sistēmas prasības:
+	•	Programmatūras veids: Izstrādājama kā darbvirsmas programmatūra ar grafisko lietotāja saskarni (GUI).
+	•	Platforma: Programma darbosies uz datoriem, kuri aprīkoti ar Windows 10 vai jaunāku operētājsistēmu.
+	•	Izstrādes vide: Programma tiks izstrādāta, izmantojot Visual Studio Code.
+	•	Programmēšanas valoda: Tiks izmantota Python 3.x valoda.
+	•	GUI bibliotēka: Tkinter.
+	•	Loga struktūra: Programmas logam būs statisks izmērs, un lietotājs varēs to minimizēt vai aizvērt jebkurā brīdī.
+	•	Skati: Programma būs sadalīta trīs skatos:
+	•	Sākuma skats: Spēles nosaukums un poga, lai uzsāktu spēli.
+	•	Spēles ekrāns: Parāda jautājumus, ievades laukus, taimeri un pogas.
+	•	Beigu ekrāns: Parāda iegūto punktu skaitu un restartēšanas iespēju.
+
+2. Programmas funkciju uzskaitījums:
+	•	Sākuma skats:
+	•	Parādīts spēles nosaukums “Matemātikas izaicinājums” un poga, lai uzsāktu spēli.
+	•	Spēles ekrāns:
+	•	Parādās nejauši ģenerēti aritmētiskie uzdevumi (saskaitīšana, atņemšana, reizināšana, dalīšana).
+	•	Taimeris: 60 sekundes ierobežojums spēles laikā.
+	•	Punktu skaitīšana: Par katru pareizu atbildi tiek piešķirts +1 punkts, bet par katru kļūdainu atbildi tiek atņemti 5 sekundi no atlikušā laika.
+	•	Punktu skaitīšana:
+	•	Ja atbilde ir pareiza: punktu skaits tiek palielināts par 1.
+	•	Ja atbilde ir nepareiza: punktu skaits tiek samazināts par 5 sek.
+	•	Beigu skats:
+	•	Pēc 60 sekundēm tiek parādīts iegūtais punktu skaits un teksts, kas atbilst iegūtajiem punktiem.
+	
+	•	Restartēšana:
+	•	Spēli var restartēt, nospiežot pogu “Sākt no jauna”.
