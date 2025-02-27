@@ -1,0 +1,28 @@
+Projekta ideja
+
+Matemātikas izaicinājums ir izglītojoša spēle, kas trenē lietotāja matemātiskās prasmes, dodot nejaušus aritmētiskus uzdevumus ar laika ierobežojumu.
+Spēlētājs iegūst punktus par pareizām atbildēm un zaudē laiku par kļūdām.
+
+Kam un kāpēc nepieciešams?
+	•	Skolēniem, lai trenētu prāta ātrumu matemātikā.
+	•	Pieaugušajiem, lai uzturētu labu garīgo formu.
+	•	Ikvienam, kurš vēlas jautru un izaicinošu spēli.
+
+Problēma, ko spēle risina
+	•	Palīdz ātri un efektīvi uzlabot galvas rēķināšanas prasmes.
+	•	Nodrošina interaktīvu un aizraujošu mācīšanās veidu.
+
+Prasību apraksts
+
+Funkcionalitāte
+
+Jautājumu ģenerēšana – Spēle dinamiski ģenerē nejaušus aritmētiskus uzdevumus.
+Atpakaļskaitīšanas taimeris – Lietotājam ir 60 sekundes spēles laika.
+Punktu sistēma – Katrs pareizais rezultāts pievieno 1 punktu.
+Soda mehānisms – Par kļūdainu atbildi no laika atņem 5 sekundes.
+Spēles restartēšana – Pēc spēles beigām lietotājs var sākt no jauna.
+
+Tehniskās prasības
+	•	Python 3.x
+	•	Tkinter (iebūvēts Python standarta bibliotēkā)
+	•	Nav nepieciešami ārēji faili
